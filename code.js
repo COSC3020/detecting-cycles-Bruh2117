@@ -28,12 +28,3 @@ function hasCycle(graph, start = 0, visited = [])
     }
     return false;
 }
-
-var graph = [
-    [1],
-    [2],
-    [3],
-    []
-];
-
-console.log(hasCycle(graph, 0, []));
