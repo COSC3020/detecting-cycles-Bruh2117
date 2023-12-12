@@ -1,4 +1,4 @@
-function hasCycle(graph, start = 0, visited = []) 
+function hasCycle(graph, start, visited = []) 
 {
     // To detect a cycle we iterate over all edges in a graph
     // and if we run into a previously visited vertex, then we
@@ -7,7 +7,7 @@ function hasCycle(graph, start = 0, visited = [])
     // We mark the vertex we're on as visited
     visited[start] = true; 
 
-    // We now start iteratiing through the adjacency matrix and 
+    // We now start iteratiing through the adjacency list and 
     // following the edges 
     for (var i = 0; i < graph[start].length; i++)
     {
