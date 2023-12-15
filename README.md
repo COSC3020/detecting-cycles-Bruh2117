@@ -15,3 +15,5 @@ exercises.
 
 What is the worst-case big $\Theta$ complexity of your implementation? Add your
 answer, including your reasoning, to this markdown file.
+
+The worst-case would be if every vertex was connected by an edge, hence we'd travel every edge to determine a cycle. This would take $|E|$ time. 
